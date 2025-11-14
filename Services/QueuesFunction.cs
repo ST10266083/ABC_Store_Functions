@@ -5,6 +5,7 @@ using ABC_Retail_Functions.Helpers;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 
+// This is the QueuesFunction which helps the mvc with backend operations
 namespace ABC_Retail_Functions.Services
 {
     public class QueueFunctions

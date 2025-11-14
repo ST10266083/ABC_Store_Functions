@@ -23,6 +23,7 @@ public static class HttpResults
     public static Task<HttpResponseData> ProblemAsync(this HttpRequestData req, string message, HttpStatusCode code = HttpStatusCode.BadRequest)
         => req.JsonAsync(new { error = message }, code);
 }
+
 /**************************************
        * Reference list  
        * Title : Help with templates and code

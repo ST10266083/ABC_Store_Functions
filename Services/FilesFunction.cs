@@ -8,6 +8,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Net.Http.Headers;
 
+// This is the FIlesFunction which helps the mvc with backend operations
 namespace ABC_Retail_Functions.Services
 {
     public class FilesFunction

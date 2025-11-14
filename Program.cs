@@ -25,6 +25,7 @@ namespace ABC_Retail_Functions
 
                      ?? throw new InvalidOperationException("AzureWebJobsStorage is not configured.");
 
+            // Register Azure Storage clients
             builder.Services.AddSingleton(new BlobServiceClient(cs));
             builder.Services.AddSingleton(new ShareServiceClient(cs));
             builder.Services.AddSingleton(new QueueServiceClient(cs));

@@ -10,6 +10,7 @@ using System.Net;
 
 namespace ABC_Retail_Functions.Services;
 
+// This is the blob function which helps the mvc with backend operations
 public class BlobsFunction
 {
     private readonly BlobServiceClient _blobs;
